@@ -1,0 +1,49 @@
+! URxvt settings ---------------------------------------------------------------
+URxvt.reverseVideo:     True
+URxvt*color12:          rgb:5c/5c/ff
+!URxvt.perl-ext-common : default,keyboard-select,url-select,clipboard,font-size
+!URxvt.keysym.M-x           : perl:keyboard-select:activate
+!URxvt.keysym.M-u           : perl:url-select:select_next
+!URxvt.keysym.M-c           : perl:clipboard:copy
+!URxvt.keysym.M-v           : perl:clipboard:paste
+!URxvt.keysym.M-s           : perl:keyboard-select:search
+!URxvt*termName: rxvt
+URxvt.font        : xft:Hack:pixelsize=13,xtf:PowerlineSymbols:pixelsize=13,xtf:FontAwesome:pixelsize=13
+!URxvt.font        : xft:Terminus:pixelsize=13
+!URxvt.font        : xft:Hack:pixelsize=13:antialias=true:style=Regular
+!URxvt*font: xft:Hack:pixelsize=13:antialias=true
+!URxvt*boldFont: xft:Hack:bold:pixelsize=13
+!URxvt.termName    : rxvt-256color
+!URxvt.iso14755    : false
+
+URxvt.transparent: true
+URxvt.shading:20
+
+URxvt.saveLines   : 12000
+URxvt.scrollBar: false
+
+! Xft settings ---------------------------------------------------------------
+!Xft.dpi:        176
+Xft.antialias:  true
+Xft.rgba:       rgb
+Xft.hinting:    true
+Xft.hintstyle:  hintslight
+!Xft.pixelsize:  13
+
+! ! xterm settings ---------------------------------------------------------------
+XTerm*reverseVideo: True
+XTerm*transparent: True
+XTerm*faceName: Hack
+XTerm*faceSize: 10
+XTerm*fontMenu*fontdefault*Label: Default
+XTerm*loginshell: 1
+XTerm*locale: 1
+XTerm.utf8: 1
+XTerm*utf8Title: 1
+
+XTerm*bellIsUrgent: 1
+XTerm*borderWidth: 0
+XTerm*scrollBar: 0
+
+XTerm*xftAntialias: 1
+XTerm*cjkWidth: 0
