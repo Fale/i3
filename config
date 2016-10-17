@@ -198,8 +198,9 @@ bindsym --release Shift+Print exec scrot -s '%Y-%m-%d_%T_$wx$h.png' -e 'mv $f ~/
 bindsym $mod+Shift+l exec i3lock --textcolor=ffffff00 --insidecolor=ffffff1c --ringcolor=ffffff3e --linecolor=ffffff00 --keyhlcolor=00000080 --ringvercolor=00000000 --insidevercolor=0000001c --ringwrongcolor=00000055 --insidewrongcolor=0000001c  -i /home/fale/.wallpaper.jpg
 
 for_window [title="^Google+ Hangouts is sharing your screen"] floating enable
-for_window [class="^Google-chrome$"] border none
-for_window [class="^firefox$"] border none
+for_window [class="^Chrome$"] border none
+for_window [class="^Firefox$"] border none
+for_window [class="^urxvt256c-ml$"] border none
 for_window [class="^Steam$"] floating enable; border none
 
 exec --no-startup-id nm-applet
